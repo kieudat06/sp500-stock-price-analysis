@@ -220,3 +220,6 @@ __marimo__/
 # Dataset
 # data/processed/*.csv
 # data/raw/*.csv
+
+data/raw/data_raw.csv
+data/processed/data_processed.csv
