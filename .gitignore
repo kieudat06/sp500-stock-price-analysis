@@ -156,6 +156,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv/
+venv_backup/
+__pycache__/
+.ipynb_checkpoints/
 
 # Spyder project settings
 .spyderproject
