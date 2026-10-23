@@ -28,7 +28,7 @@ df.columns = [
 df["ticker"] = "^GSPC"
 
 # Save raw data
-output = Path("data/raw/gspc_historical.csv")
+output = Path("data/processed/gspc_historical.csv")
 output.parent.mkdir(parents=True, exist_ok=True)
 
 df.to_csv(output, index=False)
